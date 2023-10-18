@@ -1,0 +1,22 @@
+@mixin d_flex{
+    display: flex;
+    align-items: center;
+}
+
+@mixin hover_line{
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+@mixin cursor_pointer{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+@mixin d_grid($templatesCount){
+    display: grid;
+    grid-template-columns: $templatesCount;
+}
+

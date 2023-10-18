@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu: Starbucks Coffee Company</title>
+  <link href="./assets/images/pwa-icon-192.webp" rel="icon" sizes="192x192" type="image/png" />
+  <link rel="stylesheet" href="./assets/scss/main.css">
+  <!-- font awasome kit link -->
+  <script src="https://kit.fontawesome.com/60af95cb2e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="header_menu_wrap">
+          <div class="left-menu">
+            <div class="logo">
+              <a href="http://127.0.0.1:5500/index.html"> <img
+                src="./assets/images/logo.svg.svg"
+                alt="Logo" /></a>
+            </div>
+            <div class="left-menu-items">
+              <ul>
+                <li><a href="#" id="activePage">MENU</a></li>
+                <li><a href="http://127.0.0.1:5500/reward.html">REWARDS</a></li>
+                <li><a href="#">GIFT CARDS</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="right-menu">
+            <p class="find-store">
+              <i class="fa-solid fa-location-dot"></i>Finds a Store
+            </p>
+            <button id="loigIn" class="btn">Loig In</button>
+            <button id="joinUs" class="btn">Join Us</button>
+          </div>
+          <div class="mobile_menu">
+            <div class="mobile_menu-icon" id="menu">
+              <!-- <i class="fa-solid fa-bars"></i> -->
+              <div class="span_line_wrap">
+                <span class="line_1"></span>
+                <span class="line_2"></span>
+                <span class="line_3"></span>
+              </div>
+            </div>
+            <div class="mobile_menu_items">
+              <ul>
+                <li><a href="http://127.0.0.1:5500/menu.html">MENU</a></li>
+                <li><a href="http://127.0.0.1:5500/reward.html">REWARDS</a></li>
+                <li><a href="#">GIFT CARDS</a></li>
+              </ul>
+              <div class="mobile-menu-loigin">
+                <div class="login-wrap">
+                  <div class="btn-wrap">
+                    <button id="loigIn" class="btn">Loig In</button>
+                    <button id="joinUs" class="btn">Join Us</button>
+                  </div>
+                  <p class="find-store">
+                    <i class="fa-solid fa-location-dot"></i>Finds a Store
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="items_wrapper">
+      <div class="container">
+        <div class="all_products_wrapper">
+          <div class="items_list">
+            <div class="drinks_items_wrap item_wrap">
+              <p class="drinks_title item_title">Drinks</p>
+              <ul class="list">
+                <li class="opritems active" data-filter="oleato">Oleato<sup>TM</sup></li>
+                <li class="opritems" data-filter="hot coffees">Hot Coffees</li>
+                <li class="opritems" data-filter="hot teas">Hot Teas</li>
+                <li class="opritems" data-filter="hot drinks">Hot Drinks</li>
+                <li class="opritems" data-filter="frappuccino">Frappuccino Blended Beverage</li>
+                <li class="opritems" data-filter="cold cofee">Cold Coffee</li>
+                <li class="opritems" data-filter="iced teas">Iced Teas</li>
+                <li class="opritems" data-filter="cold drinks">Cold Drinks</li>
+              </ul>
+            </div>
+            <div class="food_items_wrap item_wrap">
+              <p class="food_title item_title ">Drinks</p>
+              <ul class="list">
+                <li class="opritems" data-filter="hot breakfast">Hot Breakfast</li>
+                <li class="opritems" data-filter="Oatmeal and Yogurt">Oatmeal and Yogurt</li>
+                <li class="opritems" data-filter="bakery">Bakery</li>
+                <li class="opritems" data-filter="lunch">Lunch</li>
+                <li class="opritems" data-filter="snaks sweet">Snaks and Sweet</li>
+              </ul>
+            </div>
+            <div class="home_coffee_items_wrap item_wrap">
+              <p class="home_coffee_title item_title ">At Home Coffee</p>
+              <ul class="list">
+                <li class="opritems" data-filter="whole bean">Whole Bean</li>
+                <li class="opritems" data-filter="via instant">VIA Instant</li>
+              </ul>
+            </div>
+            <div class="merchandise_items_wrap item_wrap">
+              <p class="merchandise_title item_title ">Merchandise</p>
+              <ul class="list">
+                <li class="opritems" data-filter=cold_cups>Cold Cups</li>
+                <li class="opritems" data-tumblers>Tumblers</li>
+                <li class="opritems" data-fidata-filter=mugs>Mugs</li>
+                <li class="opritems" data-filter="others">Others</li>
+              </ul>
+            </div>
+          </div>
+          <div class="items_overview_wrapper">
+            <p class="main_title">Menu</p>
+            <div class="drinks_item_wrap item_img_wrap">
+              <p class="drinks_title Item_overview_title">Drinks</p>
+              <hr class="item_gap">
+              <div class="grid_item">
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/oleato.avif" alt="oleato"></div>
+                  <p class="item_name">Oleato</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/hot coffee.webp" alt="oleato"></div>
+                  <p class="item_name">Hot Coffees</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/hot teas.webp" alt="oleato"></div>
+                  <p class="item_name">Hot Teas</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/hot drinks.webp" alt="oleato"></div>
+                  <p class="item_name">Hot Drinks</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/frappuccino.avif" alt="oleato"></div>
+                  <p class="item_name">Frappuccino® Blended Beverages</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/cold drinks.avif" alt="oleato"></div>
+                  <p class="item_name">Cold Coffee</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/iced teas.webp" alt="oleato"></div>
+                  <p class="item_name">Iced Teas</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/cold drinks.avif" alt="oleato"></div>
+                  <p class="item_name">Cold Drinks</p>
+                </div>
+              </div>
+              <p class="drinks_title Item_overview_title">Food</p>
+              <hr class="item_gap">
+              <div class="grid_item">
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/hotbreakfast.webp" alt="oleato"></div>
+                  <p class="item_name">Hot Breakfast</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/oatmeal & yougout.avif" alt="oleato"></div>
+                  <p class="item_name">Oatmeal & Yogurt</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/bakery.avif" alt="oleato"></div>
+                  <p class="item_name">Bakery</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/lunch.jpg" alt="oleato"></div>
+                  <p class="item_name">Lunch</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/sweet and snaks.webp" alt="oleato"></div>
+                  <p class="item_name">Snacks & Sweets</p>
+                </div>
+              </div>
+              <p class="drinks_title Item_overview_title">At Home Coffee</p>
+              <hr class="item_gap">
+              <div class="grid_item">
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/whole  bean.avif" alt="oleato"></div>
+                  <p class="item_name">Whole Bean</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/via instant.webp" alt="oleato"></div>
+                  <p class="item_name">VIA Instant</p>
+                </div>
+              </div>
+              <p class="drinks_title Item_overview_title">Merchandies</p>
+              <hr class="item_gap">
+              <div class="grid_item">
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/coldcup.avif" alt="oleato"></div>
+                  <p class="item_name">Cold Cups</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/tumblers.avif" alt="oleato"></div>
+                  <p class="item_name">Tumblers</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/mug.avif" alt="oleato"></div>
+                  <p class="item_name">Mugs</p>
+                </div>
+                <div class="item_img_box">
+                  <div class="item_image"><img src="./assets/images/other.webp" alt="oleato"></div>
+                  <p class="item_name">Others</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="footer_wrap">
+      <div class="container">
+        <div class="footer_content">
+          <div class="footer_ele">
+            <ul>
+              <li class="footer_ele_title">About Us</li>
+              <li><a href="">Our Company</a></li>
+              <li><a href="">Our Coffee</a></li>
+              <li><a href="">Stories and News</a></li>
+              <li><a href="">Starbucks Archive</a></li>
+              <li><a href="">Investor Relations</a></li>
+              <li><a href="">Customer Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_ele">
+            <ul>
+              <li class="footer_ele_title">Careers</li>
+              <li><a href="">Culture and Values</a></li>
+              <li><a href="">Inclusion, Diversity, and Equity</a></li>
+              <li><a href="">College Achievement Plan</a></li>
+              <li><a href="">Alumni Community</a></li>
+              <li><a href="">U.S. Careers</a></li>
+              <li><a href="">International Careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_ele">
+            <ul>
+              <li class="footer_ele_title">Social Impact</li>
+              <li><a href="">People</a></li>
+              <li><a href="">Planet</a></li>
+              <li><a href="">Environmental and Social Impact Reporting</a></li>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_ele">
+            <ul>
+              <li class="footer_ele_title">For Business Partners</li>
+              <li><a href="">Landlord Support Center</a></li>
+              <li><a href="">Suppliers</a></li>
+              <li><a href="">
+                  Corporate Gift Card Sales</a></li>
+              <li><a href="">Office and Foodservice Coffee</a></li>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_ele">
+            <ul>
+              <li class="footer_ele_title">Order and Pick Up</li>
+              <li><a href="">COrder on the App</a></li>
+              <li><a href="">Order on the Web</a></li>
+              <li><a href="">
+                  Delivery</a></li>
+              <li><a href="">Order and Pick Up Options</a></li>
+              <li><a href="">UExplore and Find Coffee for Home</a></li>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- mobile footer -->
+        <section class="mobile_footer_wrap">
+          <div class="mobile_accodian_item">
+            <div class="accodian_title_box">
+              <p class="mobile_footer_ele_title">About Us</p>
+              <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <ul class="mobile_accodian_list_wrap">
+              <li><a href="">Our Company</a></li>
+              <li><a href="">Our Coffee</a></li>
+              <li><a href="">Stories and News</a></li>
+              <li><a href="">Starbucks Archive</a></li>
+              <li><a href="">Investor Relations</a></li>
+              <li><a href="">Customer Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mobile_accodian_item">
+            <div class="accodian_title_box">
+              <p class="mobile_footer_ele_title">Careers</p><i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <ul class="mobile_accodian_list_wrap">
+              <li><a href="">Culture and Values</a></li>
+              <li><a href="">Inclusion, Diversity, and Equity</a></li>
+              <li><a href="">College Achievement Plan</a></li>
+              <li><a href="">Alumni Community</a></li>
+              <li><a href="">U.S. Careers</a></li>
+              <li><a href="">International Careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mobile_accodian_item">
+            <div class="accodian_title_box">
+              <p class="mobile_footer_ele_title">Social Impact</p><i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <ul class="mobile_accodian_list_wrap">
+              <li><a href="">People</a></li>
+              <li><a href="">Planet</a></li>
+              <li><a href="">Environmental and Social Impact Reporting</a></li>
+              </li>
+            </ul>
+          </div>
+          <div class="mobile_accodian_item">
+            <div class="accodian_title_box">
+              <p class="mobile_footer_ele_title">For Business Partners</p><i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <ul class="mobile_accodian_list_wrap">
+              <li><a href="">Landlord Support Center</a></li>
+              <li><a href="">Suppliers</a></li>
+              <li><a href="">
+                  Corporate Gift Card Sales</a></li>
+              <li><a href="">Office and Foodservice Coffee</a></li>
+              </li>
+            </ul>
+          </div>
+          <div class="mobile_accodian_item">
+            <div class="accodian_title_box">
+              <p class="mobile_footer_ele_title">Order and Pick Up</p><i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <ul class="mobile_accodian_list_wrap">
+              <li><a href="">COrder on the App</a></li>
+              <li><a href="">Order on the Web</a></li>
+              <li><a href="">
+                  Delivery</a></li>
+              <li><a href="">Order and Pick Up Options</a></li>
+              <li><a href="">UExplore and Find Coffee for Home</a></li>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- mobile footer end -->
+        <section class="social_media_links">
+          <div class="container">
+            <div class="link_wrap">
+              <a href="https://open.spotify.com/user/starbucks" target="_blank"><img src="./assets/images/spotifiy.svg"
+                  alt="stotifiy logo"></a>
+              <a href="https://www.facebook.com/Starbucks/" target="_blank"><img src="./assets/images/facebook.svg"
+                  alt="facebook logo"></a>
+              <a href="https://www.pinterest.com/starbucks/" target="_blank"><img src="./assets/images/pintest.svg"
+                  alt="pintest logo"></a>
+              <a href="https://instagram.com/starbucks" target="_blank"><img src="./assets/images/instagram.svg"
+                  alt="instagram logo"></a>
+              <a href="https://www.youtube.com/starbucks" target="_blank"><img src="./assets/images/youtube.svg"
+                  alt="youtube logo"></a>
+              <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fstarbucks%2F" target="_blank"><img
+                  src="./assets/images/twitter.svg" alt="twitter logo"></a>
+            </div>
+          </div>
+        </section>
+        <section class="notice">
+          <div class="container">
+            <div class="notice_wrap">
+              <p class="notice_item"><a href=""> Privacy Notice</a></p>
+              <p class="notice_item"><a href="">Terms of Use</a></p>
+              <p class="notice_item"><a href="">Do Not Share My Personal Information</a></p>
+              <p class="notice_item"><a href="">CA Supply Chain Act</a></p>
+              <p class="notice_item"><a href="">Cookie Preferences</a></p>
+            </div>
+          </div>
+        </section>
+        <section class="copywrite_message">
+          <div class="container">
+            <p class="copy_message">
+              &#169;2023 Starbucks Coffee Company. All rights reserved.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
